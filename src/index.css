@@ -1,0 +1,11 @@
+:root{
+    --toastify-toast-width: 320px;
+}
+
+/* max device width */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    :root{
+        --toastify-toast-width: 3em;
+    }
+}
