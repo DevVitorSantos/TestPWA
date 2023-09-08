@@ -1,0 +1,38 @@
+.graficos{
+    display: flex;
+    
+    width: 90%;
+    height: 30em;
+    
+    margin: 3em auto;
+}
+
+.graficos .grafico-01{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.graficos .grafico-02{
+    width: 50%;
+    height: 100%;
+    background-color:brown;
+}
+
+/* max device width */
+@media only screen and (max-width: 600px) {
+	.graficos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .graficos .grafico-01{
+        width: 80%;
+       
+    }
+    .graficos .grafico-02{
+        width: 80%;
+       
+    }
+    
+}
